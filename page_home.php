@@ -111,34 +111,44 @@
 			<div class="swiper__numbersOfAssociation swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<div class="c-cardNumberOfAssociation">
-							<h3 class="number">451</h3>
-							<p>Vagas preenchidas pelo Banco de Talentos nos últimos 90 dias</p>
-						</div>
+						<?php
+							$modifierClass = '';
+							$mainNumber = '451';
+							$descriptionCard = 'Vagas preenchidas pelo Banco de Talentos nos últimos 90 dias';
+							include('components/c-cardNumbersOfAssociation.php');
+							?>
 					</div>
 					<div class="swiper-slide">
-						<div class="c-cardNumberOfAssociation">
-							<h3 class="number">2.112</h3>
-							<p>Empresas anunciantes no Banco de Talentos nos últimos 90 dias</p>
-						</div>
+						<?php
+							$modifierClass = '';
+							$mainNumber = '212';
+							$descriptionCard = 'Empresas anunciantes no Banco de Talentos nos últimos 90 dias';
+							include('components/c-cardNumbersOfAssociation.php');
+							?>
 					</div>
 					<div class="swiper-slide">
-						<div class="c-cardNumberOfAssociation">
-							<h3 class="number">3.511</h3>
-							<p>Candidatos ativos no Banco de Talentos nos últimos 90 dias</p>
-						</div>
+						<?php
+							$modifierClass = '';
+							$mainNumber = '2986';
+							$descriptionCard = 'Candidatos ativos no Banco de Talentos nos últimos 90 dias';
+							include('components/c-cardNumbersOfAssociation.php');
+							?>
 					</div>
 					<div class="swiper-slide">
-						<div class="c-cardNumberOfAssociation">
-							<h3 class="number">10.026</h3>
-							<p>Vagas anunciadas pelo Banco de talentos em 2020</p>
-						</div>
+						<?php
+							$modifierClass = '';
+							$mainNumber = '451';
+							$descriptionCard = 'Vagas anunciadas pelo Banco de talentos em 2020';
+							include('components/c-cardNumbersOfAssociation.php');
+							?>
 					</div>
 					<div class="swiper-slide">
-						<div class="c-cardNumberOfAssociation">
-							<h3 class="number">597</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-						</div>
+						<?php
+							$modifierClass = '';
+							$mainNumber = '1456';
+							$descriptionCard = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit';
+							include('components/c-cardNumbersOfAssociation.php');
+							?>
 					</div>
 				</div>
 			</div>
@@ -172,61 +182,34 @@
 						data-maxw-cols="2, 1"
 						data-cols-init="3">
 					<li>
-						<blockquote class="c-cardTestemonial">
-							<div class="c-cardTestemonial__head">
-								<figure class="c-userThumb">
-									<img src="media/img/content/users/2.jpg" alt="Caroline Gomes">
-								</figure>
-								<div>
-									<cite class="author">Caroline Gomes</cite>
-									<span class="company">Conquistou a vaga de <strong>Aux. Administrativa</strong></span>
-								</div>
-							</div>
-							<div class="c-cardTestemonial__quote">
-								<p>"Eu acho ótima o Banco de Talentos da ACIC e as ferramentas de busca. Meus últimos dois empregos e agora esse novo foram através da ferramenta, dois deles ainda no período grátis"</p>
-							</div>
-							<div class="c-cardTestemonial__stars">
-								<div class="c-reviewStars --5"></div>
-							</div>
-						</blockquote>
+						<?php
+							$name = 'Caroline Gomes';
+							$job = 'Aux. Administrativa';
+							$quote = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dapibus elit, condimentum eleifend nisl.';
+							$stars = '5';
+							$picture = '2.jpg';
+							include('components/c-testemonialCard.php');
+						?>
 					</li>
 					<li>
-						<blockquote class="c-cardTestemonial">
-							<div class="c-cardTestemonial__head">
-								<figure class="c-userThumb">
-									<img src="media/img/content/users/3.jpg" alt="Kenneth Lopez">
-								</figure>
-								<div>
-									<cite class="author">Kenneth Lopez</cite>
-									<span class="company">Conquistou a vaga de <strong>Designer Gráfico</strong></span>
-								</div>
-							</div>
-							<div class="c-cardTestemonial__quote">
-								<p>"É o meu segundo emprego na carreira, e é o segundo que consigo atraves do Banco de Talentos da ACIC"</p>
-							</div>
-							<div class="c-cardTestemonial__stars">
-								<div class="c-reviewStars --4"></div>
-							</div>
-						</blockquote>
+						<?php
+							$name = 'Kenneth Lopez';
+							$job = 'Des. Gráfico';
+							$quote = 'Lorem ipsum dolor sit amet, consectetur adipiscing elbus elit, condimentum eleifend nisl.';
+							$stars = '4';
+							$picture = '3.jpg';
+							include('components/c-testemonialCard.php');
+						?>
 					</li>
 					<li>
-						<blockquote class="c-cardTestemonial">
-							<div class="c-cardTestemonial__head">
-								<figure class="c-userThumb">
-									<img src="media/img/content/users/4.jpg" alt="Alice Nicholz">
-								</figure>
-								<div>
-									<cite class="author">Alice Nicholz</cite>
-									<span class="company">Conquistou a vaga de <strong>Contadora</strong></span>
-								</div>
-							</div>
-							<div class="c-cardTestemonial__quote">
-								<p>"É o melhor serviço de recolocação no mercado de trabalho, além de disponibilizar vagas, tem cursos, teste vocacional, guia de profissões e outros benefícios. É completo!"</p>
-							</div>
-							<div class="c-cardTestemonial__stars">
-								<div class="c-reviewStars --3"></div>
-							</div>
-						</blockquote>
+						<?php
+							$name = 'Alice Nicholz';
+							$job = 'Contadora';
+							$quote = 'Lorem ipsum dolor sit amet, consectetur adipiondi mentum eleifend ning elit. Nullam nec dapibus elit,';
+							$stars = '5';
+							$picture = '4.jpg';
+							include('components/c-testemonialCard.php');
+						?>
 					</li>
 				</ul>
 			</div>
@@ -239,46 +222,44 @@
 					<h1>Conteúdos recentes</h1>
 					<ul>
 						<li>
-							<a href="#" class="c-cardRecentPost">
-								<article>
-									<figure class="c-cardRecentPost__figure">
-										<img src="media/img/content/blog/post1.jpg" alt="Como fazer um currículo sem experiência e sem ensino superior">
-									</figure>
-									<h2 class="c-cardRecent__title">Como fazer um currículo sem experiência e sem ensino superior</h2>
-									<p class="c-cardRecent__resume">Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.</p>
-									<span class="c-linkReadMore">Ver mais</a>
-								</article>
-							</a>
+							<?php
+								$modifierClass = '';
+								$postLink = '#';
+								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
+								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
+								$postThumb = 'post1.jpg';
+								include('components/c-blog_recentPost.php');
+							?>
 						</li>
 						<li>
-							<a href="#" class="c-cardRecentPost">
-								<article>
-									<figure class="c-cardRecentPost__figure">
-										<img src="media/img/content/blog/post1.jpg" alt="Como fazer um currículo sem experiência e sem ensino superior">
-									</figure>
-									<h2 class="c-cardRecent__title">Como fazer um currículo sem experiência e sem ensino superior</h2>
-									<p class="c-cardRecent__resume">Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.</p>
-									<span class="c-linkReadMore">Ver mais</a>
-								</article>
-							</a>
+							<?php
+								$modifierClass = '';
+								$postLink = '#';
+								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
+								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
+								$postThumb = 'post1.jpg';
+								include('components/c-blog_recentPost.php');
+							?>
 						</li>
 						<li>
-							<a href="#" class="c-cardRecentPost">
-								<article>
-									<h2 class="c-cardRecent__title">Como fazer um currículo sem experiência e sem ensino superior</h2>
-									<p class="c-cardRecent__resume">Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.</p>
-									<span class="c-linkReadMore">Ver mais</a>
-								</article>
-							</a>
+							<?php
+								$modifierClass = '--noThumb';
+								$postLink = '#';
+								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
+								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
+								$postThumb = 'post1.jpg';
+								include('components/c-blog_recentPost.php');
+							?>
 						</li>
 						<li>
-							<a href="#" class="c-cardRecentPost">
-								<article>
-									<h2 class="c-cardRecent__title">Como fazer um currículo sem experiência e sem ensino superior</h2>
-									<p class="c-cardRecent__resume">Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.</p>
-									<span class="c-linkReadMore">Ver mais</a>
-								</article>
-							</a>
+							<?php
+								$modifierClass = '--noThumb';
+								$postLink = '#';
+								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
+								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
+								$postThumb = 'post1.jpg';
+								include('components/c-blog_recentPost.php');
+							?>
 						</li>
 					</ul>
 				</section>
@@ -288,26 +269,46 @@
 					<h1>Vagas recentes</h1>
 					<ul>
 						<li>
-							<a href="#" class="c-cardRecentJob">
-								<div class="c-cardRecentJob__head">
-									<div class="c-cardRecentJob__places">
-										<i>icon</i>
-										<p>Siderópolis <span>(3)</span>, Içara <span>(3)</span></p>
-									</div>
-									<div class="c-cardRecentJob__budget">R$ 4.500,00 - R$ 6.000,00</div>
-								</div>
-								<h2 class="c-cardRecentJob__title">Gerente de projetos</h2>
-								<div class="c-cardRecentJob__benefits">
-									<ul class="c-listBenefits">
-										<li>Plano de saúde</li>
-										<li>VT</li>
-										<li>VR</li>
-									</ul>
-								</div>
-								<div class="c-cardRecentJob__more">
-									zoom
-								</div>
-							</a>
+							<?php
+								$title = 'Gerente de Projetos';
+								$budget = 'R$ 4.500,00 - R$ 6.000,00';
+								$cities = [
+									['Siderópolis', 3],
+									['Tubarão', 5],
+								];
+								$benefits = ['Plano de Saúde', 'VT', 'VR'];
+								$linkJob = '#';
+								$modifierClass = '';
+								include('components/c-job_recent.php');
+							?>
+						</li>
+						<li>
+							<?php
+								$title = 'Aux. Adminsitrativo';
+								$budget = 'R$ 2.500,00 - R$ 3.000,00';
+								$cities = [
+									['Criciúma', 2],
+									['Laguna', 9],
+								];
+								$benefits = ['VT', 'VR'];
+								$linkJob = '#';
+								$modifierClass = '';
+								include('components/c-job_recent.php');
+							?>
+						</li>
+						<li>
+							<?php
+								$title = 'Designer gráfico';
+								$budget = 'R$ 4.500,00 - R$ 6.000,00';
+								$cities = [
+									['Siderópolis', 3],
+									['Morro da Fumaça', 1],
+								];
+								$benefits = ['Plano de Saúde', 'VT', 'VR'];
+								$linkJob = '#';
+								$modifierClass = '';
+								include('components/c-job_recent.php');
+							?>
 						</li>
 					</ul>
 				</section>

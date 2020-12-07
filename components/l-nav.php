@@ -30,58 +30,71 @@
 				<ul class="l-nav__menu">
 					<li class="c-subMenu">
 						<span class="c-subMenu__mask"></span>
-						<a class="c-subMenu__call js-subMenuPrimary">Inner Pages</a>
+						<a class="c-subMenu__call js-subMenuPrimary">Institucional</a>
 						<div class="c-subMenu__content">
 							<ul>
-								<li><a href="carreiras">Carreiras</a></li>
-								<li><a href="institucional">Institucional</a></li>
-								<li><a href="contato">Contato</a></li>
-								<li>
-									<div class="c-subMenu">
-										<a class="c-subMenu__call">Legal</a>
-										<ul class="c-subMenu__content">
-											<li><a href="termos-de-uso">Termos de Uso</a></li>
-											<li><a href="politica-de-privacidade">Política de Privacidade</a></li>
-										</ul>
-									</div>
-								</li>
-								<li>
-									<div class="c-subMenu">
-										<a class="c-subMenu__call">Extras</a>
-										<ul class="c-subMenu__content">
-											<li><a href="extras/projeto_extra_modelo_fullPage/">Landing FullPage.js</a></li>
-											<li><a href="extras/projeto_extra_modelo_simple/">Landing Vazia</a></li>
-											<li>
-												<div class="c-subMenu">
-													<a class="c-subMenu__call">Mais</a>
-													<ul class="c-subMenu__content">
-														<li><a href="error">404 Erro</a></li>
-														<li><a href="componentslist">Components</a></li>
-													</ul>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</li>
+								<li><a href="#">Lorem Ipsum</a></li>
+								<li><a href="#">Lorem Ipsum</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="c-subMenu">
+						<span class="c-subMenu__mask"></span>
+						<a class="c-subMenu__call js-subMenuPrimary">Para Empresas</a>
+						<div class="c-subMenu__content">
+							<ul>
+								<li><a href="#">Lorem Ipsum</a></li>
+								<li><a href="#">Lorem Ipsum</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="c-subMenu">
+						<span class="c-subMenu__mask"></span>
+						<a class="c-subMenu__call js-subMenuPrimary">Para Candidatos</a>
+						<div class="c-subMenu__content">
+							<ul>
+								<li><a href="#">Lorem Ipsum</a></li>
+								<li><a href="#">Lorem Ipsum</a></li>
 							</ul>
 						</div>
 					</li>
 				</ul>
-				<div class="l-nav__cta">
-					<div class="c-ctaUserCapture">
-						<a href="#" class="c-btn --primary">Login</a>
-						<a href="#" class="c-btn --primary">Cadastre-se</a>
-					</div>
-				</div>
 				<div class="l-nav__maskMenu maskMenu"></div>
 			</div>
-			<div class="l-nav__showOnlyInResponsive">
-				<div class="l-nav__cta">
-					<a href="#" class="c-btnWithIcon --secondary --small">
-						<i><?php include('media/img/icons/icon_phone.svg'); ?></i>
-						<span>Call To Action</span>
-					</a>
+			<div class="l-nav__userActions">
+				<div class="c-ctaUserCapture">
+					<a href="#" class="c-btn --primary">Login</a>
+					<a href="#" class="c-btn --primary">Cadastre-se</a>
 				</div>
+				<div class="c-loggedUser">
+					<div class="c-subMenu">
+						<span class="c-subMenu__mask"></span>
+						<a class="c-subMenu__call js-subMenuPrimary">
+							<?php
+								$modifierClass = '';
+								$userPic = '1.jpg';
+								$userCode = '#01234578';
+								$userFirstName = 'Guilherme';
+								$userLastName = 'Laureano';
+								include ('components/c-userId.php');
+							?>
+						</a>
+						<div class="c-subMenu__content">
+							<?php
+								include ('components/c-userId.php');
+							?>
+							<ul>
+								<li><a href="#">Meu painel</a></li>
+								<li><a href="#">Minha conta</a></li>
+								<li><a href="#">Meu currículo</a></li>
+								<li><a href="#">Aviso de vagas</a></li>
+								<li><a href="#">Minhas candidaturas</a></li>
+								<li class="exitLogin"><a href="#">Sair</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
 			</div>
 			<div class="l-nav__maskMenu maskAll"></div>
 			<div class="c-hamburguer">

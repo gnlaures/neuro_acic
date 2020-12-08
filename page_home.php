@@ -1,5 +1,6 @@
 <header class="l-headerHome">
-	<div class="u-container">
+	<img src="media/img/content/header.jpg" alt="ACIC" class="l-headerHome__cover">
+	<div class="u-container u-containerFlex">
 		<div class="l-headerHome__slide">
 			<div class="swiper__headerHome swiper-container">
 				<div class="swiper-wrapper">
@@ -107,7 +108,7 @@
 	<section class="s-associationNumbers">
 		<div class="u-container">
 			<h1>Lorem ipsum dolor sit consec adetetur adipis cing elet vitae placerat rhnocs. </h1>
-			<p>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</p>
+			<h2>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</h2>
 			<div class="swiper__numbersOfAssociation swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
@@ -152,26 +153,29 @@
 					</div>
 				</div>
 			</div>
-			<span class="smallObservation">* Dados atualizados em tempo real</span>
+			<span class="u-smallObservation">* Dados atualizados em tempo real</span>
 		</div>
 	</section>
 	<section class="s-testemonials">
-		<div class="u-container u-containerFlex">
+		<div class="u-container">
 			<div class="s-testemonials__primary">
 				<div class="primary__l">
 					<div class="c-videoLink">
 						<a href="#" title="Lorem Ipsum sit - Título do vídeo" class="c-videoLink__cover u-aspectRatio u-aspectRatio--16-9">
-							<img src="media/img/content/testemonials/videoCover.jpg" alt="Lorem Ipsum sit - Título do vídeo">
+							<img src="media/img/content/videoCover.jpg" alt="Lorem Ipsum sit - Título do vídeo">
 						</a>
 						<a href="#" title="Lorem Ipsum sit - Título do vídeo" class="c-videoLink__icon">
-							<i><?php include('media/img/icons/icon_play.svg'); ?></i>
+							<?php include('media/img/icons/icon_play.svg'); ?>
 						</a>
 					</div>
 				</div>
 				<div class="primary__r">
 					<div class="c-adsFeature">
 						<a href="#">
-							ads here
+							<picture>
+								<source media="(min-width:900px)" srcset="media/img/content/publiAd/cursos_1.png">
+								<img src="media/img/content/publiAd/cursos_1__mobile.png" alt="Cursos ACIC">
+							</picture>
 						</a>
 					</div>
 				</div>
@@ -203,11 +207,21 @@
 					</li>
 					<li>
 						<?php
-							$name = 'Alice Nicholz';
-							$job = 'Contadora';
-							$quote = 'Lorem ipsum dolor sit amet, consectetur adipiondi mentum eleifend ning elit. Nullam nec dapibus elit,';
-							$stars = '5';
+							$name = 'Josh Nicholz';
+							$job = 'Contador';
+							$quote = 'Lorem ipsum dolor sit amet, consectetur adipiondi mentum eleifend ning elit. Nullam nec dapibus elit huhuha aheuh asdasdl.';
+							$stars = '3';
 							$picture = '4.jpg';
+							include('components/c-testemonialCard.php');
+						?>
+					</li>
+					<li>
+						<?php
+							$name = 'Ulrich Jarl';
+							$job = 'Arquiteto';
+							$quote = 'Fus Lorem roh ipsum daah dolor sit amet, consectetur adipiondi mentum eleifend ning elit.';
+							$stars = '5';
+							$picture = '5.jpg';
 							include('components/c-testemonialCard.php');
 						?>
 					</li>
@@ -216,7 +230,7 @@
 		</div>
 	</section>
 	<div class="l-homeCentralContent">
-		<div class="u-container">
+		<div class="u-container u-containerFlex">
 			<div class="l-homeCentralContent__l">
 				<section class="s-recentBlogPosts">
 					<h1>Conteúdos recentes</h1>

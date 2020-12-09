@@ -1,7 +1,9 @@
 <a href="<?php echo $linkJob; ?>" class="c-cardRecentJob" <?php echo $modifierClass; ?>>
 	<div class="c-cardRecentJob__head">
 		<div class="c-cardRecentJob__places">
-			<i>icon</i>
+			<i>
+				<?php include('media/img/icons/icon_map.svg'); ?>
+			</i>
 			<p>
 				<?php
 					foreach ($cities as list($a, $b)) {
@@ -19,6 +21,6 @@
 		</ul>
 	</div>
 	<div class="c-cardRecentJob__more">
-		zoom
+		<?php include('media/img/icons/icon_zoom.svg'); ?>
 	</div>
 </a>

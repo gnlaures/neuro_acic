@@ -324,64 +324,78 @@
 								include('components/c-job_recent.php');
 							?>
 						</li>
+						<li>
+							<?php
+								$title = 'Desenvolvedor Android';
+								$budget = 'Não informado';
+								$cities = [
+									['Criciúma', 1]
+								];
+								$benefits = ['VT', 'VR', 'Plano de Saúde', 'Plano odontológico', 'Participação em lucros', '14º'];
+								$linkJob = '#';
+								$modifierClass = '';
+								include('components/c-job_recent.php');
+							?>
+						</li>
 					</ul>
 				</section>
 				<section class="s-listsNumbersPerCities --left">
 					<h1>Vagas</h1>
-					<div class="s-listNumbersPerCities__content">
+					<div class="s-listsNumbersPerCities__content">
 						<h2>Por cidade</h2>
 						<ul>
-							<li><a href="#"><span class="city">Criciúma</span><span class="number">(547)</span></a></li>
-							<li><a href="#"><span class="city">Içara</span><span class="number">(95)</span></a></li>
-							<li><a href="#"><span class="city">Forquilhinha</span><span class="number">(22)</span></a></li>
-							<li><a href="#"><span class="city">Nova Veneza</span><span class="number">(08)</span></a></li>
-							<li><a href="#"><span class="city">Urussanga</span><span class="number">(2)</span></a></li>
+							<li><a href="#"><span class="caption">Criciúma</span><span class="number">(547)</span></a></li>
+							<li><a href="#"><span class="caption">Içara</span><span class="number">(95)</span></a></li>
+							<li><a href="#"><span class="caption">Forquilhinha</span><span class="number">(22)</span></a></li>
+							<li><a href="#"><span class="caption">Nova Veneza</span><span class="number">(08)</span></a></li>
+							<li><a href="#"><span class="caption">Urussanga</span><span class="number">(2)</span></a></li>
 						</ul>
 					</div>
-					<div class="s-listNumbersPerCities__content">
+					<div class="s-listsNumbersPerCities__content">
 						<h2>Por área de atuação</h2>
 						<ul>
-							<li><a href="#"><span class="city">Industrial</span><span class="number">(547)</span></a></li>
-							<li><a href="#"><span class="city">Comercial</span><span class="number">(95)</span></a></li>
-							<li><a href="#"><span class="city">Vendas</span><span class="number">(22)</span></a></li>
-							<li><a href="#"><span class="city">Administração</span><span class="number">(08)</span></a></li>
-							<li><a href="#"><span class="city">Transporte</span><span class="number">(2)</span></a></li>
-							<li><a href="#"><span class="city">Restaurantes</span><span class="number">(547)</span></a></li>
-							<li><a href="#"><span class="city">Varejo</span><span class="number">(95)</span></a></li>
-							<li><a href="#"><span class="city">Engenharia</span><span class="number">(22)</span></a></li>
-							<li><a href="#"><span class="city">Informática</span><span class="number">(08)</span></a></li>
-							<li><a href="#"><span class="city">Outros</span><span class="number">(2)</span></a></li>
+							<li><a href="#"><span class="caption">Industrial</span><span class="number">(547)</span></a></li>
+							<li><a href="#"><span class="caption">Comercial</span><span class="number">(95)</span></a></li>
+							<li><a href="#"><span class="caption">Vendas</span><span class="number">(22)</span></a></li>
+							<li><a href="#"><span class="caption">Administração</span><span class="number">(08)</span></a></li>
+							<li><a href="#"><span class="caption">Transporte</span><span class="number">(2)</span></a></li>
+							<li><a href="#"><span class="caption">Restaurantes</span><span class="number">(547)</span></a></li>
+							<li><a href="#"><span class="caption">Varejo</span><span class="number">(95)</span></a></li>
+							<li><a href="#"><span class="caption">Engenharia</span><span class="number">(22)</span></a></li>
+							<li><a href="#"><span class="caption">Informática</span><span class="number">(08)</span></a></li>
+							<li><a href="#"><span class="caption">Outros</span><span class="number">(2)</span></a></li>
+							<li class="lastReadMore"><a href="#" class="c-linkReadMore">Ver mais</a></li>
 						</ul>
-						<a href="#" class="c-linkReadMore">Ver mais</a>
 					</div>
 				</section>
+
 				<section class="s-listsNumbersPerCities --right">
 					<h1>Candidatos</h1>
-					<div class="s-listNumbersPerCities__content">
+					<div class="s-listsNumbersPerCities__content">
 						<h2>Por cidade</h2>
 						<ul>
-							<li><a href="#"><span class="city">Criciúma</span><span class="number">(547)</span></a></li>
-							<li><a href="#"><span class="city">Içara</span><span class="number">(95)</span></a></li>
-							<li><a href="#"><span class="city">Forquilhinha</span><span class="number">(22)</span></a></li>
-							<li><a href="#"><span class="city">Nova Veneza</span><span class="number">(08)</span></a></li>
-							<li><a href="#"><span class="city">Urussanga</span><span class="number">(2)</span></a></li>
+							<li><a href="#"><span class="caption">Criciúma</span><span class="number">(547)</span></a></li>
+							<li><a href="#"><span class="caption">Içara</span><span class="number">(95)</span></a></li>
+							<li><a href="#"><span class="caption">Forquilhinha</span><span class="number">(22)</span></a></li>
+							<li><a href="#"><span class="caption">Nova Veneza</span><span class="number">(08)</span></a></li>
+							<li><a href="#"><span class="caption">Urussanga</span><span class="number">(2)</span></a></li>
 						</ul>
 					</div>
-					<div class="s-listNumbersPerCities__content">
+					<div class="s-listsNumbersPerCities__content">
 						<h2>Por área de atuação</h2>
 						<ul>
-							<li><a href="#"><span class="city">Industrial</span><span class="number">(547)</span></a></li>
-							<li><a href="#"><span class="city">Comercial</span><span class="number">(95)</span></a></li>
-							<li><a href="#"><span class="city">Vendas</span><span class="number">(22)</span></a></li>
-							<li><a href="#"><span class="city">Administração</span><span class="number">(08)</span></a></li>
-							<li><a href="#"><span class="city">Transporte</span><span class="number">(2)</span></a></li>
-							<li><a href="#"><span class="city">Restaurantes</span><span class="number">(547)</span></a></li>
-							<li><a href="#"><span class="city">Varejo</span><span class="number">(95)</span></a></li>
-							<li><a href="#"><span class="city">Engenharia</span><span class="number">(22)</span></a></li>
-							<li><a href="#"><span class="city">Informática</span><span class="number">(08)</span></a></li>
-							<li><a href="#"><span class="city">Outros</span><span class="number">(2)</span></a></li>
+							<li><a href="#"><span class="caption">Industrial</span><span class="number">(547)</span></a></li>
+							<li><a href="#"><span class="caption">Comercial</span><span class="number">(95)</span></a></li>
+							<li><a href="#"><span class="caption">Vendas</span><span class="number">(22)</span></a></li>
+							<li><a href="#"><span class="caption">Administração</span><span class="number">(08)</span></a></li>
+							<li><a href="#"><span class="caption">Transporte</span><span class="number">(2)</span></a></li>
+							<li><a href="#"><span class="caption">Restaurantes</span><span class="number">(547)</span></a></li>
+							<li><a href="#"><span class="caption">Varejo</span><span class="number">(95)</span></a></li>
+							<li><a href="#"><span class="caption">Engenharia</span><span class="number">(22)</span></a></li>
+							<li><a href="#"><span class="caption">Informática</span><span class="number">(08)</span></a></li>
+							<li><a href="#"><span class="caption">Outros</span><span class="number">(2)</span></a></li>
+							<li class="lastReadMore"><a href="#" class="c-linkReadMore">Ver mais</a></li>
 						</ul>
-						<a href="#" class="c-linkReadMore">Ver mais</a>
 					</div>
 				</section>
 			</div>

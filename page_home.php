@@ -1,18 +1,22 @@
 <header class="l-headerHome">
 	<img src="media/img/content/header.jpg" alt="ACIC" class="l-headerHome__cover">
-	<div class="u-container u-containerFlex">
+	<div class="u-container u-containerFlex u-aic">
 		<div class="l-headerHome__slide">
 			<div class="swiper__headerHome swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<h1>Lorem ipsum dolor sit consec adetetur adipiscing eliam ut est id nibh sagittis tincidunt et vitae placerat rhnocs.</h1>
-						<p>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</p>
-						<a href="#" class="c-btn --secondary">Anunciar vaga gratuitamente</a>
+						<div class="headerSwiperContent">
+							<h1>Lorem ipsum dolor sit consec adetetur adipiscing eliam ut est id nibh sagittis tincidunt et vitae placerat rhnocs.</h1>
+							<p>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</p>
+							<a href="#" class="c-btn --secondary">Anunciar vaga gratuitamente</a>
+						</div>
 					</div>
 					<div class="swiper-slide">
-						<h1>Lorem ipsum dolor sit consec adetetur adipiscing eliam ut est id nibh sagittis tincidunt et vitae placerat rhnocs.</h1>
-						<p>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</p>
-						<a href="#" class="c-btn --secondary">Cadastre seu currículo</a>
+						<div class="headerSwiperContent">
+							<h1>Lorem ipsum dos.</h1>
+							<p>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</p>
+							<a href="#" class="c-btn --secondary">Cadastre seu currículo</a>
+						</div>
 					</div>
 				</div>
 			</div>

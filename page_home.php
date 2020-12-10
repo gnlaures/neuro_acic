@@ -13,7 +13,7 @@
 					</div>
 					<div class="swiper-slide">
 						<div class="headerSwiperContent">
-							<h1>Lorem ipsum dos.</h1>
+							<h1>Lorem ipsum dolor sit consec adetetur adipiscing eliam ut es.</h1>
 							<p>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</p>
 							<a href="#" class="c-btn --secondary">Cadastre seu currículo</a>
 						</div>
@@ -31,7 +31,7 @@
 						</ul>
 					</div>
 					<div class="c-tabHorizontal__content is-active" id="buscar-vagas">
-						<form action="@" class="c-simpleForm">
+						<form action="#" class="c-simpleForm">
 							<ul>
 								<li class="u-fw100">
 									<label for="formHomeSearchJob_area" class="u-dflex">
@@ -66,9 +66,15 @@
 					<div class="c-tabHorizontal__content u-dnone" id="buscar-candidatos">
 						<div class="c-contentBlocked">
 							<?php include('media/img/icons/icon_locked.svg'); ?>
-							<p>Somente empresas logadas tem acesso a busca de candidatos.</p>
-							<p>Quer encontrar o candidato ideal para sua empresa?</p>
-							<a href="cadastro" class="c-btn --primary">Cadastre-a!</a>
+							<div>
+								<p>Somente empresas logadas tem acesso a busca de candidatos.</p>
+								<p>Quer encontrar o candidato ideal para sua empresa?</p>
+								<div class="u-dflex u-aic">
+									<a href="cadastro" class="c-btn --primary --stroke">Faça login</a>
+									<span>Ou</span>
+									<a href="cadastro" class="c-btn --primary --stroke">Cadastre-se!</a>
+								</div>
+							</div>
 						</div>
 						<form action="#" class="c-simpleForm">
 							<ul class="u-dnone">

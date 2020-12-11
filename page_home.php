@@ -125,49 +125,53 @@
 		<div class="u-container">
 			<h1>Lorem ipsum dolor sit consec adetetur adipis cing elet vitae placerat rhnocs. </h1>
 			<h2>Aliquam placerat, lectus id scelerisque, mi dui gravida enim, sed rhoncus lib.</h2>
-			<div class="swiper__numbersOfAssociation swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<?php
-							$modifierClass = '';
-							$mainNumber = '451';
-							$descriptionCard = 'Vagas preenchidas pelo Banco de Talentos nos últimos 90 dias';
-							include('components/c-cardNumbersOfAssociation.php');
+			<div class="swiperHero">
+				<div class="swiper__numbersOfAssociation swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<?php
+								$modifierClass = '';
+								$mainNumber = '451';
+								$descriptionCard = 'Vagas preenchidas pelo Banco de Talentos nos últimos 90 dias';
+								include('components/c-cardNumbersOfAssociation.php');
 							?>
-					</div>
-					<div class="swiper-slide">
-						<?php
-							$modifierClass = '';
-							$mainNumber = '212';
-							$descriptionCard = 'Empresas anunciantes no Banco de Talentos nos últimos 90 dias';
-							include('components/c-cardNumbersOfAssociation.php');
+						</div>
+						<div class="swiper-slide">
+							<?php
+								$modifierClass = '';
+								$mainNumber = '212';
+								$descriptionCard = 'Empresas anunciantes no Banco de Talentos nos últimos 90 dias';
+								include('components/c-cardNumbersOfAssociation.php');
 							?>
-					</div>
-					<div class="swiper-slide">
-						<?php
-							$modifierClass = '';
-							$mainNumber = '2986';
-							$descriptionCard = 'Candidatos ativos no Banco de Talentos nos últimos 90 dias';
-							include('components/c-cardNumbersOfAssociation.php');
+						</div>
+						<div class="swiper-slide">
+							<?php
+								$modifierClass = '';
+								$mainNumber = '2986';
+								$descriptionCard = 'Candidatos ativos no Banco de Talentos nos últimos 90 dias';
+								include('components/c-cardNumbersOfAssociation.php');
 							?>
-					</div>
-					<div class="swiper-slide">
-						<?php
-							$modifierClass = '';
-							$mainNumber = '451';
-							$descriptionCard = 'Vagas anunciadas pelo Banco de talentos em 2020';
-							include('components/c-cardNumbersOfAssociation.php');
+						</div>
+						<div class="swiper-slide">
+							<?php
+								$modifierClass = '';
+								$mainNumber = '451';
+								$descriptionCard = 'Vagas anunciadas pelo Banco de talentos em 2020';
+								include('components/c-cardNumbersOfAssociation.php');
 							?>
-					</div>
-					<div class="swiper-slide">
-						<?php
-							$modifierClass = '';
-							$mainNumber = '1456';
-							$descriptionCard = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit';
-							include('components/c-cardNumbersOfAssociation.php');
+						</div>
+						<div class="swiper-slide">
+							<?php
+								$modifierClass = '';
+								$mainNumber = '1456';
+								$descriptionCard = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit';
+								include('components/c-cardNumbersOfAssociation.php');
 							?>
+						</div>
 					</div>
 				</div>
+				<div class="swiper-button-prev swiperArrow --left --primary"></div>
+				<div class="swiper-button-next swiperArrow --right --primary"></div>
 			</div>
 			<span class="u-smallObservation">* Dados atualizados em tempo real</span>
 		</div>

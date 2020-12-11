@@ -1,5 +1,5 @@
 <div class="c-cardProfileId <?php echo $modifierClass; ?>">
-	<figure>
+	<figure class="c-userThumb --small">
 		<img src="media/img/content/users/<?php echo $userPic; ?>" alt="<?php echo $userFirstName; ?> <?php echo $userLastName; ?>">
 	</figure>
 	<div class="c-cardProfileId__infos">

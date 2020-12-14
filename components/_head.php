@@ -48,7 +48,7 @@
 
 	<!-- css files -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 	<link href="dist/css/libraries-min.css" type="text/css" rel="stylesheet" />
 	<link href="dist/css/styles-min.css" type="text/css" rel="stylesheet" />
 </head>

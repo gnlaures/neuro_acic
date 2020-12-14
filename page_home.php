@@ -32,7 +32,7 @@
 					</div>
 					<div class="c-tabHorizontal__content is-active" id="buscar-vagas">
 						<form action="#" class="c-simpleForm">
-							<ul>
+							<ul class="u-dflex">
 								<li class="u-fw100 liPluginSelect2">
 									<label for="formHomeSearchJob_area" class="u-dflex">
 										<strong>Área de atuação</strong>
@@ -83,7 +83,7 @@
 							</div>
 						</div>
 						<form action="#" class="c-simpleForm u-dnone">
-							<ul>
+							<ul class="u-dflex">
 								<li class="u-fw100">
 									<label for="formHomeSearchPerson_area" class="u-dflex">
 										<strong>Área de atuação</strong>
@@ -181,10 +181,10 @@
 			<div class="s-testemonials__primary">
 				<div class="primary__l">
 					<div class="c-videoLink">
-						<a href="#" title="Lorem Ipsum sit - Título do vídeo" class="c-videoLink__cover u-aspectRatio u-aspectRatio--16-9">
+						<a href="https://youtu.be/ArCPMLJ9Urs" data-fancybox title="Lorem Ipsum sit - Título do vídeo" class="c-videoLink__cover u-aspectRatio u-aspectRatio--16-9">
 							<img src="media/img/content/videoCover.jpg" alt="Lorem Ipsum sit - Título do vídeo">
 						</a>
-						<a href="#" title="Lorem Ipsum sit - Título do vídeo" class="c-videoLink__icon">
+						<a href="https://youtu.be/ArCPMLJ9Urs" data-fancybox title="Lorem Ipsum sit - Título do vídeo" class="c-videoLink__icon">
 							<?php include('media/img/icons/icon_play.svg'); ?>
 						</a>
 					</div>
@@ -258,7 +258,7 @@
 						<li>
 							<?php
 								$modifierClass = '';
-								$postLink = '#';
+								$postLink = 'conteudo-post';
 								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
 								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
 								$postThumb = 'post1.jpg';
@@ -268,7 +268,7 @@
 						<li>
 							<?php
 								$modifierClass = '';
-								$postLink = '#';
+								$postLink = 'conteudo-post';
 								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
 								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
 								$postThumb = 'post1.jpg';
@@ -278,7 +278,7 @@
 						<li>
 							<?php
 								$modifierClass = '--noThumb';
-								$postLink = '#';
+								$postLink = 'conteudo-post';
 								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
 								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
 								$postThumb = 'post1.jpg';
@@ -288,7 +288,7 @@
 						<li>
 							<?php
 								$modifierClass = '--noThumb';
-								$postLink = '#';
+								$postLink = 'conteudo-post';
 								$postTitle = 'Como fazer um currículo sem experiência e sem ensino superior';
 								$postResume = 'Fazer um currículo não é uma tarefa nada fácil. Ainda mais quando você não tem experiência ou ensino superior.';
 								$postThumb = 'post1.jpg';

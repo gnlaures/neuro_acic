@@ -82,7 +82,7 @@
 			$file = 'page_conteudos.php';
 			$title_page = 'Conteúdos - '.$title;
 			break;
-		case 'conteudos-post':
+		case 'conteudo-post':
 			$file = 'page_conteudosPost.php';
 			$title_page = 'Título do conteúdo - '.$title;
 			break;

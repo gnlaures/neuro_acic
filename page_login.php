@@ -1,5 +1,5 @@
 <?php include('components/l-headerInner.php'); ?>
-<main class="l-innerPage --simple">
+<main class="l-innerPage">
 	<section class="s-loginAndRegistry">
 		<div class="u-container u-containerFlex">
 			<div class="s-loginAndRegistry__login">
@@ -52,7 +52,7 @@
 								<input id="formRegistry_nome" type="text" name="nome" class="field" required>
 							</li>
 							<li class="u-fw100 liBtn">
-								<button class="c-btn --primary">Login</button>
+								<button class="c-btn --primary">Continuar cadastro</button>
 							</li>
 						</ul>
 					</form>

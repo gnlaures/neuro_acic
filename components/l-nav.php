@@ -67,8 +67,8 @@
 					</li>
 				</ul>
 				<div class="c-ctaUserCapture">
-					<a href="#" class="c-btn --primary --small loginBtn">Login</a>
-					<a href="#" class="c-btn --primary --stroke --small signupBtn">Cadastre-se</a>
+					<a href="login" class="c-btn --primary --small loginBtn">Login</a>
+					<a href="login" class="c-btn --primary --stroke --small signupBtn">Cadastre-se</a>
 				</div>
 				<div class="c-loggedUser --withNotify u-dnone">
 					<div class="c-subMenu">

@@ -38,7 +38,7 @@
 										<strong>Área de atuação</strong>
 										<span class="observation">Selecione no máximo 4 áreas</span>
 									</label>
-									<select class="js-select2__basic" name="areas[]" multiple="multiple" id="formHomeSearchJob_area">
+									<select class="js-select2__basic" name="areas[]" multiple="multiple" id="formHomeSearchJob_area" data-maximum-selection-length="4">
 										<option></option>
 										<option value="Comercial">Comercial</option>
 										<option value="Vendas">Vendas</option>
@@ -54,13 +54,17 @@
 								<li class="u-fw100 liPluginSelect2">
 									<label for="formHomeSearchJob_cidade" class="u-dflex">
 										<strong>Cidade</strong>
-										<span class="observation">Selecione no máximo 4 cidades</span>
+										<span class="observation">Selecione quantas cidades desejar</span>
 									</label>
 									<select class="js-select2__basic" name="cidades[]" multiple="multiple" id="formHomeSearchJob_cidade">
 										<option value="C1">Cidade 1</option>
 										<option value="C2">Cidade 2</option>
 										<option value="C3">Cidade 3</option>
 										<option value="C4">Cidade 4</option>
+										<option value="C5">Cidade 5</option>
+										<option value="C6">Cidade 6</option>
+										<option value="C7">Cidade 7</option>
+										<option value="C8">Cidade 8</option>
 									</select>
 								</li>
 								<li class="u-fw100 liBtn">
@@ -89,7 +93,7 @@
 										<strong>Área de atuação</strong>
 										<span class="observation">Selecione no máximo 4 áreas</span>
 									</label>
-									<select class="js-select2__basic" name="areas_person[]" multiple="multiple" id="formHomeSearchPerson_area">
+									<select class="js-select2__basic" name="areas_person[]" multiple="multiple" id="formHomeSearchPerson_area" data-maximum-selection-length="4">
 										<option value="A1">Área 1</option>
 										<option value="A2">Área 2</option>
 										<option value="A3">Área 3</option>
@@ -99,7 +103,7 @@
 								<li class="u-fw100">
 									<label for="formHomeSearchPerson_cidade" class="u-dflex">
 										<strong>Cidade</strong>
-										<span class="observation">Selecione no máximo 4 cidades</span>
+										<span class="observation">Selecione cidades quantas desejar</span>
 									</label>
 									<select class="js-select2__basic" name="cidades_person[]" multiple="multiple" id="formHomeSearchPerson_cidade">
 										<option value="C1">Cidade 1</option>

@@ -1,4 +1,8 @@
-<?php include('components/l-headerInner.php'); ?>
+<?php
+	include('components/l-headerInner.php');
+	include('components/m-login-rec-email.php');
+	include('components/m-login-rec-senha.php');
+	?>
 <main class="l-innerPage">
 	<section class="s-loginAndRegistry">
 		<div class="u-container u-containerFlex">
@@ -21,8 +25,8 @@
 						</ul>
 					</form>
 					<ul class="loginAuxLinks">
-						<li><a href="#">Esqueci minha senha</a></li>
-						<li><a href="#">Esqueci meu e-mail</a></li>
+						<li><a data-fancybox data-src="#login-rec-senha" href="javascript:;">Esqueci minha senha</a></li>
+						<li><a data-fancybox data-src="#login-rec-email" href="javascript:;">Esqueci meu e-mail</a></li>
 					</ul>
 				</div>
 			</div>

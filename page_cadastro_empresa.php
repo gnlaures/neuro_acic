@@ -4,7 +4,7 @@
 		<div class="u-container u-containerFlex">
 			<div class="s-withSidebar__aside">
 				<aside class="l-asideSteps">
-					<ul>
+					<ul class="c-defaultCard">
 						<li><a href="etapa-01" class="js-scrollLink --ok">01 - <strong>LGPD</strong></a></li>
 						<li><a href="etapa-02" class="js-scrollLink">02 - <strong>Acesso</strong></a></li>
 						<li><a href="etapa-03" class="js-scrollLink">03 - <strong>Dados da empresa</strong></a></li>
@@ -92,7 +92,7 @@
 										<strong>Área de atuação</strong>
 										<span class="observation">Selecione no máximo 5 áreas</span>
 									</label>
-									<select class="js-select2__basic" name="areas[]" multiple="multiple" id="formUserRegistry_area">
+									<select class="js-select2__basic" name="areas[]" multiple="multiple" id="formUserRegistry_area" data-maximum-selection-length="5">
 										<option></option>
 										<option value="Comercial">Comercial</option>
 										<option value="Vendas">Vendas</option>

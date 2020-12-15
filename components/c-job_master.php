@@ -36,8 +36,9 @@
 	<div class="c-cardJobMaster__footer">
 		<div class="div c-cardJobMaster__code">Cód. 105845<br>Cadastro em 11/10/2020</div>
 		<div class="c-cardJobMaster__btns u-dflex u-jcfe">
-			<a href="#" class="c-btn --stroke --primary btn_1">Página da vaga</a>
-			<a href="#" class="c-btn --primary btn_2">Quero me candidatar</a>
+			<a href="busca-resultados-vagas" class="c-btn --stroke --primary btn_1">Página da vaga</a>
+			<a data-fancybox data-src="#confirmacao-candidato-vaga" href="javascript:;" class="c-btn --primary btn_2">Quero me candidatar</a>
 		</div>
 	</div>
 </div>
+
